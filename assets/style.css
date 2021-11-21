@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: white;
+}
+
+h1{
+    text-align: center;
+    left: 50%;
+}
+
+
+.instruction_box,
+.quiz_box,
+.buttons{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.instruction_box span{
+    width: 100%; 
+    background: white;
+    border-radius: 5px;
+
+}
+
+.instruction_box{
+    height: 60px;
+    align-items: center; 
+    padding: 15px 35px;
+    font-size: 20px;
+}
+
+
+.instruction_txt{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+    width: 640px;
+    padding: 15px 35px;
+    margin: 5px;
+    font-size: 15px;
+    height: 60px;
+} 
+
+
+/* Style Start Quiz Button */
+.buttons button{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    padding: 0 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background:slateblue;
+    cursor:pointer;
+
+}
+
+.quiz_box{
+    width: 640px;
+    background: white;
+    border-radius: 5px;
+}
+
+.quiz_box header{
+    height: 70px;
+    padding:0 30px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px 5px 0 0;
+}
+
+.quiz_box header .title{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.quiz_box header .timer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75px;
+    height: 50px;
+}
+
+.quiz_box header .timer .time_text{
+    font-weight: 400;
+    font-size: 12px;
+    user-select: none;
+}
+
+.quiz_box section{
+    padding: 25px 30px 20px 30px;
+
+}
+
+.quiz_box section .option_list{
+    padding: 20px 0;
+    display: block;
+}
+
+section{
+    justify-items: center;
+    justify-content: space-between;
+    padding: 25px 30px 20px 30px;
+    background: #fff;
+}
+
+section .question_text{
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 600;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+section .question_text span{
+    justify-content: center;
+}
+section .option_list{
+    padding: 20px 0px;
+    display: block;   
+}
+
+section .option_list .option{
+    padding: 8px 15px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+section .option_list .option:hover{
+    color: violet;
+
+
+
+}
+
+
+
+.quiz_scoring{
+
+}
